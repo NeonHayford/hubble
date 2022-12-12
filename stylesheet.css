@@ -509,7 +509,7 @@ footer a:hover{
     }
 
     footer{
-        min-height: 48rem;
+        max-height: 48rem;
         max-height: auto; 
         padding: 10px 4%;
         background: var(--blue);
