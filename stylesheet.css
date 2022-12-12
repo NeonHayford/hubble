@@ -216,8 +216,8 @@ footer{
     position: absolute;
     z-index: -2;
     top: 184.063rem;
-    /* width: 1440px;
-    top: 2626px;*/
+    width: 1440px;
+    /* top: 2626px;*/
     height: 26.125rem;
     min-height: auto;
     padding: 0.625rem 6%;
