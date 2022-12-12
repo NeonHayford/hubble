@@ -216,7 +216,7 @@ footer{
     position: absolute;
     z-index: -2;
     top: 184.063rem;
-    width: 1440px;
+    width: auto;
     /* top: 2626px;*/
     height: 26.125rem;
     min-height: auto;
@@ -509,8 +509,8 @@ footer a:hover{
     }
 
     footer{
-        max-height: 48rem;
-        max-height: auto; 
+        min-height: 48rem;
+        max-height: auto;  
         padding: 10px 4%;
         background: var(--blue);
     }
