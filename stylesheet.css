@@ -84,6 +84,7 @@ body{
 }
 
 .nav1:hover{
+    cursor: pointer;
     opacity: var(--text-opacity);
 }
 
@@ -110,7 +111,8 @@ body{
     padding: 1.125rem 4.313rem;
 }
 .nav-button:hover{
-    opacity: var(--text-opacity);
+    cursor: pointer;
+    background-color: #FF9ADB;
 }
 
 .mockups{
@@ -135,7 +137,7 @@ body{
 
 .image-reverse{
     position: relative;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
     display: flex;
     align-items: center;
@@ -151,7 +153,7 @@ body{
 
 .container2{
     position: relative;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
     display: flex;
     align-items: center;
@@ -284,6 +286,10 @@ footer a:hover{
     gap: 4%; 
 }
 
+.loc img{
+  margin-bottom: 1rem;
+  height: 100%;
+}
 
 .card{
     position: relative;
@@ -298,29 +304,11 @@ footer a:hover{
 }
 
 .media-logo{
-    width: 8.75rem;
-    height: 1.25rem;
+    width: 8rem;
+    height: max-content;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    fill: var(--white);
-}
-
-.toggle-circle{
-    width: 1.875rem;
-    height: 1.875rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid var(--white);
-    border-radius: 50%;
-    fill: var(--white);
-}
-
-.toggle-circle:hover{
-    border-radius: 50%;
-    border-color: var(--pink);
-    fill: var(--pink);
 }
 
 .gap-r-01{
@@ -330,9 +318,35 @@ footer a:hover{
     justify-content: space-between;
 }
 
-/* p{
-    color: var(--white);
-} */
+.toggle-circle{
+    background-color: red;
+    width: 1.875rem;
+    height: 1.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--white);
+    border-radius: 50%;
+    border: 1px solid white;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.toggle-circle svg path {
+    cursor: pointer;
+    fill: white;
+}
+
+.toggle-circle:hover svg path{
+    border-radius: 50%;
+    border: 1px solid var(--pink);
+    fill: var(--pink);
+    fill: pink;
+}
+
+
+
+
 
 
 @media(max-width: 375px){
@@ -541,6 +555,11 @@ footer a:hover{
         gap: 4%;
         width: auto;
     }
+
+    .loc img{
+        margin-bottom: 1rem;
+        height: 100%;
+      }
     
     .card{
         position: relative;
