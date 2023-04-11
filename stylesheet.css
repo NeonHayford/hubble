@@ -598,7 +598,13 @@ footer a:hover{
         justify-content: space-between;
     }
     
-.gap-r-01 > div{
-    margin: 0.7rem;
+    .gap-r-01 > div{
+        margin: 0.7rem;
+    }
 }
+
+@media screen and (min-width: 600px){
+    .container1{
+        background-color: #FF9ADB;
+    }
 }
