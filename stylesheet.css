@@ -607,6 +607,7 @@ footer a:hover{
     .container1{
         color: #FF9ADB;
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
     }
