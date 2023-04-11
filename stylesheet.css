@@ -601,3 +601,10 @@ footer a:hover{
     margin: 0.7rem;
 }
 }
+@media screen and (max-width: 420px){
+      .container1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
