@@ -610,7 +610,7 @@ footer a:hover{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        column-gap: 3%;
+        column-gap: 2%;
     }
     .mockups{
         /* width: 517.5px;
