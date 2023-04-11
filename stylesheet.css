@@ -603,7 +603,7 @@ footer a:hover{
     }
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (max-width: 1000px){
     .container1{
         color: #FF9ADB;
         display: flex;
