@@ -605,7 +605,7 @@ footer a:hover{
 
 @media screen and (max-width: 1000px){
     .container1{
-        background-color: firebrick;
+        /* background-color: firebrick; */
         display: flex;
         flex-direction: column;
         align-items: center;
